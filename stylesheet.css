@@ -39,6 +39,7 @@ header {
   text-align: center;
   background-color: black;
   color:white;
+  height: 700px;
 }
 
 .copy-container h1 {
@@ -49,8 +50,22 @@ header {
   font-size:60px;
 }
 
+.item {
+  float: left;
+  padding-right: 50px;
+  padding-top:50px;
+  width: 30%;
+  text-align:center;
+  }
+
+.item h4 {
+    font-size: 30px;
+    font-weight:bold;
+}
+
+
 .products {
-  height:900px;
+  height: 600px;
   margin:100px 80px;
   text-align: center;
 }
@@ -67,20 +82,10 @@ h3 {
   float: left;
   padding-right: 40px;
   padding-top:50px;
-  width: 25%;
+  width: 20%;
   text-align:center;
-}
+  }
 
-.product-img {
-  position:relative;
-}
-
-.product-img p {
-  position:absolute;
-  top: 90px;
-  width:100%;
-  color: white;
-}
 
 .txt-contents {
   width: 80%;
@@ -116,7 +121,7 @@ input, textarea {
 
 .contact-submit :active {
  cursor:pointer;
-}
+ }
 
 span {
   color:tomato;
