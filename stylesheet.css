@@ -63,6 +63,10 @@ header {
     font-weight:bold;
 }
 
+.item p {
+  font-size:20px;
+}
+
 
 .products {
   height: 600px;
